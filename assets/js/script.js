@@ -29,13 +29,10 @@ function cifrar() {
             textoCifrado += String.fromCharCode(codigo);
         }
         // Espacios 
-        else if ( c == "") {
-                textoCifrado += "";
+        else if ( c == " ") {
+                textoCifrado += " ";
         }
         
-        else {
-            textoCifrado += c;
-        }
     }
 
 
@@ -74,13 +71,10 @@ function descifrar() {
             textoDescifrado += String.fromCharCode(codigo);
         }
         // Espacios 
-        else if ( c == "") {
-            textoDescifrado += "";
+        else if ( c == " ") {
+            textoDescifrado += " ";
         }
-        //Otros caracteres
-        else {
-            textoDescifrado += c;
-        }
+        
     }
 
     
